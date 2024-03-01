@@ -4,19 +4,25 @@ import {NavigationContainer} from '@react-navigation/native';
 import Splash from '../screens/Splash';
 import HomeStack from './HomeStack';
 import AuthStack from './AuthStack';
+import auth from '@react-native-firebase/auth';
 
 const Navigator = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   
   useEffect(() => {
-    checkAuthStatus();
+    const unsubscribe = auth().onAuthStateChanged((user) => {
+      setIsAuthenticated(!!user);
+      setIsLoading(false);
+    });
+
+    return unsubscribe;  
   }, []);
 
   const checkAuthStatus = () => {
     try{
-        // will implement auth checker later
-      if(false){
+      const user = auth().currentUser;        
+      if(user){
         setIsAuthenticated(true)
       }else{
         setIsAuthenticated(false)

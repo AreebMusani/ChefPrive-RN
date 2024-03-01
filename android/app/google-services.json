@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "938613023234",
+    "firebase_url": "https://chefprive-default-rtdb.firebaseio.com",
+    "project_id": "chefprive",
+    "storage_bucket": "chefprive.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938613023234:android:5506ab19848771afd43d1b",
+        "android_client_info": {
+          "package_name": "com.chefprive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "938613023234-bo03v1acf1fse90jaegrajv5qprqra2o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chefprive",
+            "certificate_hash": "fa62d95814edf74efd9435855966094ac52834fc"
+          }
+        },
+        {
+          "client_id": "938613023234-90g81s1sjram89q0s0483dbaienec716.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHsD-9IBQup2RaD-pSuPZtMNkrCxISQEI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "938613023234-6m6g124ieh2poik5tb58tetn7gh8v7tq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

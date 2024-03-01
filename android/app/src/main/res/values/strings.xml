@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ChefPrive</string>
+    <string name="facebook_app_id">375460642016180</string>
+    <string name="facebook_client_token">443a4fbc5452a3a9ee4761a66d5f3978</string>
 </resources>
